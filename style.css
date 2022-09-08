@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigator{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    margin-top: 0.8rem;
+}
+
+.logo {
+    font-size: 2.2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 15rem;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    height: 40px;
+    width: 40px;
+    padding-right: 5px;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15rem;
+}
+
+.menu-bar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    padding: 15px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu-bar ul li:hover {
+    color: pink;
+    cursor: pointer;
+}
+
+.btn {
+    padding: 10px;
+    margin-left: 2px;
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+    background-color: rgb(0, 208, 255);
+    border: 1px solid rgb(0, 208, 255); 
+}
+
+.menu-bar .btn:hover {
+    background-color: rgb(0, 208, 255);
+    border: 1px solid rgb(0, 208, 255);
+    cursor: pointer;
+}
+
+.background-design {
+    height: 100vh;
+    background: url(car-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.background-design .text-area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17.8rem;
+    margin-left: 16rem;
+    margin-bottom: 10px;
+}
+
+.background-design .text-area h1 {
+    color:rgb(0, 208, 255);
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.background-design .text-area .booking {
+    color: white;
+    flex-direction: column;
+}
+
+.background-design .text-area .booking p {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+
+.background-design .text-area .booking .btn-2 {
+    font-size: 1.8rem;
+    margin-top: 0.9rem;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    border: 1px solid rgb(0, 208, 255);
+}
+
+.footer-box {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background-color: black;
+}
+
+.footer-box .details {
+    margin-left: 12rem;
+}
+
+.footer-box .details strong {
+    color: dodgerblue;
+}
+
+.footer-box .details p {
+    color: white;
+}
